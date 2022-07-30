@@ -1,19 +1,44 @@
-h1{
-    color: rgb(202, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Rajdhani', sans-serif;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-position: center ;
-    margin: 15%;
+header h1 {
+    color: #ec183f;
+    font-size: 45px;
+    width: 800px;
+    margin: 0 auto;
 }
 
-.redesSociais{
+main{
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+
+small.data{
+    font-weight: 700;
+}
+
+img{
+    width: 100%;
+}
+
+ul.redes-sociais{
     text-align: center;
-    margin-top: 60px;
-    border-top: 1px solid #dfdfdf;
-    padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    
+}
+
+ul.redes-sociais{
+    list-style: none;
+}
+
+ul.redes-sociais li{
+    display: inline-block;
+}
+
+ul.redes-sociais li a img{
+    width: 40px;
+    margin: 10px;
 }
